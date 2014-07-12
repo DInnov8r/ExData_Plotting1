@@ -11,4 +11,3 @@ colnames(mydata) <-names(read.table('./household_power_consumption.txt', header=
 png(filename="plot1.png")
 hist(mydata$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 dev.off()
-
